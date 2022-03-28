@@ -136,7 +136,7 @@ h1
     font-weight: bold;
     text-align: center; 
 }
-img { display: block; margin: 0px auto 0px auto; }
+img { display: block; margin: 10px auto 10px auto; width: 250px; }
 figcaption 
 { 
     text-align: center; 
@@ -188,4 +188,26 @@ caption
     background-color: #fafafa;
     border: 1px solid rgb(231, 231, 231);
 
+}
+.divPage
+{
+    display: block;
+
+    margin: 5px auto 5px auto;
+
+    width: 50%;
+    border: 0;
+    height: 1px;
+    background: #333;
+}
+.upLink
+{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.upLink:hover
+{
+    color: rgb(110, 110, 110);
 }
