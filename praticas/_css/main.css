@@ -5,14 +5,14 @@ body
     font-family: Arial, Helvetica, sans-serif;
 
     /* Fundo */
-    background-color: #fffefa;
+    background-color: #fffbea48;
 }
 
 /* Cabeçalho */
 .cabecalho
 {
     /* Fundo */
-    background-color: #57665F;
+    background-color: #0000000a;
 
     /* Tamanho */
     width: auto;
@@ -24,7 +24,7 @@ body
 {
     /* Texto */
     text-align: justify;
-    color: rgb(255, 255, 255);
+    color: rgb(39, 39, 39);
     font-size: 25px;
 
     height: auto;
@@ -35,21 +35,26 @@ body
     padding-top: 15px;
 
     margin-left: auto;
+
+    transition: 0.5s;
+}
+.titulo:hover
+{
+    transition: 0.5s;
+    color: rgba(0, 0, 0, 0.616);
 }
 
 /* Navegação */
 .navegacao
 {
     /* Fundo */
-    background-color: #8DA69B;
+    background-color: #0000000a;
 
     padding-left: 20px;
     padding-right: 20px;
 
     /* Tamanho */
     height: 40px;
-
-    border-bottom-right-radius: 120px;
 }
 ul
 {
@@ -68,11 +73,14 @@ a
 {
     font-weight: bolder;
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
+
+    transition: 0.5s;
 }
 a:hover
 {
-    color: #C3E6D7;
+    color: #555555;
+    transition: 0.5s;
 }
 #lancamento 
 {
@@ -94,8 +102,6 @@ a:hover
 
     margin-left: auto;
     margin-right: 50px;
-    /* position: absolute;
-    left: 1330px; */
 }
 
 /* Roda pé */
@@ -103,7 +109,7 @@ a:hover
 {
     height: 20px;
 
-    background-color: #e4f5ee;
+    background-color: #e0e0e021;
 
     margin: 50px auto 0px auto;
 
@@ -136,7 +142,8 @@ h1
     font-weight: bold;
     text-align: center; 
 }
-img { display: block; margin: 10px auto 10px auto; width: 250px; }
+img { display: block; margin: 10px auto 10px auto; width: 250px; transition: 0.5s;}
+img:hover { width: 280px; background-color: #777777; transition: 0.5s;}
 figcaption 
 { 
     text-align: center; 
@@ -151,6 +158,8 @@ table
 
     width: 600px;
     height: 200px;
+
+    border: 1px solid rgb(187, 187, 187);
 }
 caption
 {
@@ -161,9 +170,11 @@ caption
 
     padding-top: 10px;
     /* Fundo */
-    background-color: #e4f5ee;
+    background-color: #00000038;
     height: 25px;
+    transition: 0.5s;
 }
+caption:hover { transition: 0.5s; background-color: #000000cc; color: #eeeeee; }
 .CE
 {
     padding-right: 5px;
@@ -172,9 +183,17 @@ caption
     padding-bottom: auto;
 
     text-align: right;
+    font-weight: bold;
 
     background-color: #eeeeee;
     border: 1px solid rgb(187, 187, 187);
+
+    transition: 1s;
+}
+.CE:hover 
+{ 
+    transition: 1s; 
+    background-color: #c4c4c4;
 }
 .CD
 {
@@ -186,9 +205,12 @@ caption
     text-align: justify;
 
     background-color: #fafafa;
-    border: 1px solid rgb(231, 231, 231);
+    border: 1px solid rgb(187, 187, 187);
 
+    transition: 0.5s;
 }
+.CD:hover { transition: 0.5s; background-color: #000000cc; color: #eeeeee;}
+
 .divPage
 {
     display: block;
